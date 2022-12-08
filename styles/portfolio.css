@@ -23,8 +23,17 @@ h1, h2, h3, h4, h5, h6
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 30px;
+}
 
 
 
@@ -52,4 +61,46 @@ padding: 12px 20px;
 color: white;
 line-height: 27px;
 font-size: 18px;
+}
+
+.button-branding-outline {
+    background: var(--secondary-color);
+border-radius: 4px;
+border: 1px solid var(--branding-color);
+padding: 12px 20px;
+color: var(--branding-color);
+line-height: 27px;
+font-size: 18px;
+
+}
+
+.projects-image {
+  
+width: 560px;
+height: 560px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width:960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+
+  }
+
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
 }
